@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item
+                android:drawable="@drawable/radius_rectangle"/>
+            <item
+                android:drawable="@drawable/baseline_arrow_drop_down_24"
+                android:gravity="center|right"
+                android:width="35dp"
+                android:right="10dp"
+                android:height="35dp"/>
+        </layer-list>
+    </item>
+</selector>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "728100411661",
+    "project_id": "lab1-e36a9",
+    "storage_bucket": "lab1-e36a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728100411661:android:585ad1866cbc3b7ea4f844",
+        "android_client_info": {
+          "package_name": "com.chaeni__beam.a409_lab_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728100411661-hjqn0q2ob38f2fqp9vmjhtot9g51ukcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAr3lToL0XmHK5VHMTiuIJBXJEeeUay_bQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "728100411661-hjqn0q2ob38f2fqp9vmjhtot9g51ukcn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

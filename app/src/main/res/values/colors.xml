@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue409">#B4C7E7</color>
+    <color name="red_marker">#FB8383</color>
+    <color name="orange_marker">#FFC47E</color>
+    <color name="yellow_marker">#FFFE66</color>
+    <color name="green_marker">#B1FF7F</color>
+    <color name="blue_marker">#8C9BFF</color>
+    <color name="violet_marker">#A085FF</color>
+
+    <color name="red_background">#FFD2D2</color>
+    <color name="orange_background">#FFEBD3</color>
+    <color name="yellow_background">#FFFFD4</color>
+    <color name="green_background">#E4FFD3</color>
+    <color name="blue_background">#D3D9FF</color>
+    <color name="violet_background">#DFD5FF</color>
+
+</resources>

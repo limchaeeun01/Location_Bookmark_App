@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    tools:context=".LocationDialog">
+
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="600dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/infoArea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/locationName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="제목"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/suitebold"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/category"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="카테고리"
+                    android:textColor="#404040"
+                    android:fontFamily="@font/suite_regular"
+                    android:layout_gravity="center"
+                    android:textSize="15dp"/>
+
+                <TextView
+                    android:id="@+id/address"
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/suite_regular"
+                    android:text="주소주소주소wnthwnthwwntnwth"
+                    android:textColor="#808080"
+                    android:textSize="13dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/dateCreated"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="시간시간시간"
+                    android:fontFamily="@font/suite_regular"
+                    android:textSize="13dp"/>
+
+                <TextView
+                    android:id="@+id/memo"
+                    android:layout_margin="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="내용 쫙afewfawfdsfsdfsdfdsfasdfas dafddfdsfsdffdffdfdfeaf"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/suite_regular"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+                <LinearLayout
+                    android:layout_gravity="right"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/deleteBtn"
+                        android:layout_width="50dp"
+                        android:layout_height="27dp"
+                        android:background="@drawable/deleteicon"
+                        android:layout_marginRight="5dp"/>
+
+                    <ImageView
+                        android:id="@+id/modifyBtn"
+                        android:layout_width="50dp"
+                        android:layout_height="27dp"
+                        android:background="@drawable/modifyicon"/>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

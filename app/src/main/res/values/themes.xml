@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.409_Lab_Project" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimaryVariant">@color/blue409</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">@android:color/transparent</item>
+        <item name="android:enforceNavigationBarContrast" tools:targetApi="q">false</item>
+        <item name="android:enforceStatusBarContrast" tools:targetApi="q">false</item>
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.409_Lab_Project" parent="Base.Theme.409_Lab_Project" />
+
+    <style name="round_dialog_activity" parent="@style/Theme.AppCompat.DayNight.Dialog">
+        <item name="android:windowBackground">@drawable/bg_round_dialog</item>
+        <item name="android:windowBackgroundFallback" tools:ignore="NewApi">@color/white</item>
+    </style>
+</resources>

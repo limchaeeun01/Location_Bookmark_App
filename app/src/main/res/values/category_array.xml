@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categoryArray">
+        <item>카테고리를 선택하세요.</item>
+        <item>집</item>
+        <item>음식점</item>
+        <item>카페</item>
+        <item>생활</item>
+        <item>숙박</item>
+        <item>문화</item>
+        <item>쇼핑</item>
+        <item>술집/바</item>
+        <item>기타</item>
+    </string-array>
+</resources>

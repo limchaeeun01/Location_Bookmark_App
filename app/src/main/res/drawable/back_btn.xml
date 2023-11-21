@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item
+                android:drawable="@drawable/transparency"/>
+            <item
+                android:drawable="@drawable/baseline_arrow_forward_24"
+                android:gravity="center"
+                android:width="50dp"
+                android:height="50dp"/>
+        </layer-list>
+    </item>
+</selector>
